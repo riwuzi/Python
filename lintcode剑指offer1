@@ -1,0 +1,23 @@
+class SoClass:
+    
+    def __init__(self,y):
+        self.vv=y
+        
+    def haha(self):
+                    
+        for v in range(1,self.vv+1):
+            if (v%15==0):
+                print('fizz buzz')
+            elif v%3==0:
+                print('fizz')
+            elif v%5==0:
+                print('buzz')
+            else:
+                print(v)  
+                
+                
+nn = input()
+n=int(nn)
+x=SoClass(n)
+
+x.haha()
